@@ -1,0 +1,33 @@
+   .rats
+   {
+   	background-color: beige; 
+   }
+   	h1 
+   	{
+   		color: pink;
+   		font-size: 120;
+   	}
+   h2 { color: purple;
+            font-family: cursive;
+
+        }
+
+        #food { background-color: green; 
+        }
+        #not { color: blue;
+
+        }
+
+        #noteat { border-left: double darkred;
+
+        }
+        #red { color: red; font-family: serif ;
+
+   }
+
+   h2 {background-color: skyblue; color: royalblue; font-family: cursive
+
+   }    
+   .pics { background-color: beige; color: blueviolet;
+
+   }
