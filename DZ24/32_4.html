@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+function calcSalaries(строк роботи, наявна зарплатня) {
+
+  let updatedSalaries = [];
+
+  for (let i = 0; i < строк роботи.length; i++) {
+    let salary = наявна зарплатня[i];
+
+    
+    if (строк роботи[i] >= 3) {
+      salary *= 1.2; 
+    } else {
+      salary *= 1.1; 
+    }
+
+ 
+    if (salary < 4000) {
+      salary += 1000; 
+    } else {
+      salary += 500; 
+    }
+
+    updatedSalaries.push(salary);
+  }
+
+  return updatedSalaries;
+}
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
